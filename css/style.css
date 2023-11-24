@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Colours */
+.bg-yellow {
+    background: #FFE100;
+}
+
+/* Fonts */
+H1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 300;
+}
+
+p, .button, address, a {
+    font-family: 'Open Sans', sans-serif;  
+
+}
+
+/* Nav */
+.nav-link {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: small;
+    font-weight: bold;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: initial;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #FFE100 !important;
+}
+
+/* Footer */
+.footer a {
+    display: block;
+    color: #606060;
+}
+
+/* Buttons */
+.btn {
+    display: block;
+    border-radius: 0;
+}
+
+/* Form */
+.form-control {
+    border-radius: 0;
+    border-bottom: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: initial;
+}
+
+/* Custom */
+.bg-light {
+    background-color: #efefef;
+}
+
+hr {
+    border-top: 3px solid #FFE100;
+}
+
+.bg-image {
+    background-image: url("/mylearning/assets/intro-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-stripe {
+    background: linear-gradient(0deg, #ffffff 60%, #f8f9fa 60%);
+}
+@media only screen and (min-width: 720px) {
+    .log-in {
+        max-width: 400px;
+    }
+}
+
+.card {
+    box-shadow: 0px 0px 10px 0px #dfdfdf;
+    border: none;
+}
+.card:hover {
+    background-color: #FFE100;
+}
+
+.yellow-shadow {
+    box-shadow: -20px -20px 0px 0px #FFE100;
+    width: 100%;
+    height: auto;
+}
