@@ -64,7 +64,7 @@ hr {
 }
 
 .bg-image {
-    background-image: url("/mylearning/assets/intro-banner.jpg");
+    background-image: url("../assets/intro-banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
